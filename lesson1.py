@@ -28,3 +28,5 @@ json_response = json.loads(response.text)
 print(json_response)
 # Fetch value using Json Path
 pages = jsonpath.jsonpath(json_response, 'total_pages')
+
+# end of file
